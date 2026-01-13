@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib CMakeFiles/test_memory_pool.dir/test_memory_pool.cpp.o -o ../bin/tests/test_memory_pool  -Wl,-rpath,/Users/xiaohou/Code/LotusInfer/lib ../lib/libmimalloc.2.2.dylib
