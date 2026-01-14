@@ -18,10 +18,13 @@ int main () {
     }
     t1->loadData(data_dst);
     t1->debug();
+    std::cout << std::endl;
     std::vector<size_t> stride = t1->getStrides();
     std::cout << "Stride is ";
     for(auto i : stride){
         std::cout << i << " ";
     }
     std::cout << std::endl;
+
+    
 }
